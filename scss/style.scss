@@ -1,0 +1,40 @@
+ @import '../scss/import';
+
+
+ body {
+   font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: black;
+ }
+
+ [class*="wrapper"] {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: hidden;
+    padding: 0 6px;
+ }
+
+
+ [class*="__container"] {
+   //  border: 1px solid green;
+    max-width: 1192px; // +12
+    margin: 0 auto;
+ }
+
+ .ibg{
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;
+   
+   }
+   
+   .ibg img{
+   width: 0;
+   height: 0;
+   position: absolute;
+   top: 0;
+   left: 0;
+   img{display: none;}
+   }
